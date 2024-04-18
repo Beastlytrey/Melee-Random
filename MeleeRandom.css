@@ -1,0 +1,70 @@
+body {
+  background-image: url("CharSelect.jpg");
+  background-size: cover;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+h1 {
+  margin-top: 100px;
+  color: darkred;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: white;
+  font-size: 30px;
+  margin-top: 200px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 30px;
+  border: thick double darkred;
+  color: black;
+  font-weight: bold;
+  width: 300px;
+  border-radius: 5px;
+}
+
+button, .filterDiv:focus {
+  outline: none;
+}
+
+button, .filterDiv:focus-visible {
+  outline: 1px solid red;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.filterDiv {
+  float: left;
+  background-color: #2196f3;
+  color: #ffffff;
+  width: 150px;
+  line-height: 60px;
+  text-align: center;
+  margin: 2px;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.btn:hover {
+  background-color: #ddd;
+}
+
+.btn:active {
+  background-color: #666;
+  color: white;
+}
+
+/*  */

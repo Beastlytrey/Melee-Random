@@ -1,0 +1,55 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="MeleeRandom.css" />
+  </head>
+  <header>
+    <h1>Random Character</h1>
+  </header>
+  <body>
+    <h2 id="character-icon">?</h2>
+    <button class="btn" onclick="random()">Random Character</button>
+    <div id="CharFilterContainer">
+      <button class="btn active" onclick="filterSelection('all')">
+        Show all
+      </button>
+      <button class="btn" onclick="filterSelection('High')">High Tier</button>
+      <button class="btn" onclick="filterSelection('Mid')">Mid Tier</button>
+      <button class="btn" onclick="filterSelection('Low')">Low Tier</button>
+    </div>
+
+    <div class="container">
+      <!--> <div class="filterDiv btn" onclick="random()">Random All</div>
+      <div class="filterDiv High btn" onclick="random()">Random High</div>
+      <div class="filterDiv Mid btn" onclick="random()">Random Mid</div>
+      <div class="filterDiv Low btn" onclick="random()">Random Low</div>-->
+      <!--Make a function for so any of these buttons can change the character name shown (done)-->
+      <div class="filterDiv Mid" onclick="changeName(0)">Dr. Mario</div>
+      <div class="filterDiv Mid" onclick="changeName(1)">Mario</div>
+      <div class="filterDiv Mid" onclick="changeName(2)">Luigi</div>
+      <div class="filterDiv Low" onclick="changeName(3)">Bowser</div>
+      <div class="filterDiv High" onclick="changeName(4)">Peach</div>
+      <div class="filterDiv Mid" onclick="changeName(5)">Yoshi</div>
+      <div class="filterDiv Mid" onclick="changeName(6)">Donkey Kong</div>
+      <div class="filterDiv High" onclick="changeName(7)">Captain Falcon</div>
+      <div class="filterDiv Mid" onclick="changeName(8)">Ganondorf</div>
+      <div class="filterDiv High" onclick="changeName(9)">Falco</div>
+      <div class="filterDiv High" onclick="changeName(10)">Fox</div>
+      <div class="filterDiv Low" onclick="changeName(11)">Ness</div>
+      <div class="filterDiv Mid" onclick="changeName(12)">Ice Climbers</div>
+      <div class="filterDiv Low" onclick="changeName(13)">Kirby</div>
+      <div class="filterDiv Mid" onclick="changeName(14)">Samus</div>
+      <div class="filterDiv Low" onclick="changeName(15)">Zelda</div>
+      <div class="filterDiv High" onclick="changeName(16)">Sheik</div>
+      <div class="filterDiv Mid" onclick="changeName(17)">Link</div>
+      <div class="filterDiv Mid" onclick="changeName(18)">Young Link</div>
+      <div class="filterDiv Low" onclick="changeName(19)">Pichu</div>
+      <div class="filterDiv Mid" onclick="changeName(20)">Pikachu</div>
+      <div class="filterDiv High" onclick="changeName(21)">Jigglypuff</div>
+      <div class="filterDiv Low" onclick="changeName(22)">Mewtwo</div>
+      <div class="filterDiv Low" onclick="changeName(23)">Mr. Game & Watch</div>
+      <div class="filterDiv High" onclick="changeName(24)">Marth</div>
+      <div class="filterDiv Low" onclick="changeName(25)">Roy</div>
+    </div>
+    <script src="MeleeRandom.js"></script>
+  </body>
+</html>
