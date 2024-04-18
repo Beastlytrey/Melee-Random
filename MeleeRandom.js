@@ -47,7 +47,7 @@ console.log(meleeCharacters.length);
 //get element by class name "all/high/mid/low" and use those from that filter
 
 //Can i replace button with different button when clicking filters?
-//
+// Testing functions
 
 function random() {
   charSelect.textContent =
