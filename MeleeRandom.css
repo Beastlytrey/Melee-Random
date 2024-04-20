@@ -52,6 +52,12 @@ button, .filterDiv:focus-visible {
   text-align: center;
   margin: 2px;
   display: none;
+  border: thick double blueviolet 2rem;
+  border-radius: 5px;
+}
+
+.filterDiv:hover {
+  background-color: cyan;
 }
 
 .show {
