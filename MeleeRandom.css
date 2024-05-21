@@ -48,6 +48,8 @@ button, .filterDiv:focus-visible {
 }
 
 .filterDiv {
+  align-items: center;
+  justify-content: space-evenly;
   float: left;
   background-color: #2196f3;
   color: #ffffff;
@@ -55,7 +57,7 @@ button, .filterDiv:focus-visible {
   line-height: 60px;
   text-align: center;
   margin: 2px;
-  display: none;
+  display: flex;
   border: thick double blueviolet 2rem;
   border-radius: 5px;
 }
